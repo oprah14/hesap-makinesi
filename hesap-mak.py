@@ -14,6 +14,7 @@ def bolme(x, y):
         return 0
     else:
         return x / y    
+
 def us_alma(x, y):
     return x ** y
 while True:
