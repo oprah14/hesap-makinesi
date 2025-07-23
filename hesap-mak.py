@@ -9,8 +9,11 @@ def carpma(x, y):
     return x * y
 
 def bolme(x, y):
-    return x / y
-
+    if y == 0:
+        print("Bir sayi 0'a bölünemez!")
+        return 0
+    else:
+        return x / y    
 def us_alma(x, y):
     return x ** y
 while True:
